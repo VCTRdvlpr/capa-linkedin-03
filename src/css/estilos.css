@@ -1,0 +1,70 @@
+body{ 
+    background-color: black;
+    font-family: 'Bebas Neue', monospace;
+    color: orangered;    
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;    
+    }   
+
+a{
+    color: white;
+    text-decoration: none;
+}    
+
+.capa-linkedin{
+    background-image: url(../imagens/capa-04.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+    width: 1580px;    
+    border: 4px outset orangered;
+    border-radius: 0%;
+    overflow: hidden;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    padding: 100px;
+}
+        
+footer img{
+    width: 40px;
+    height: 40px;
+}    
+
+.git-img{
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 30%;
+    opacity: 0.7;
+}
+
+footer a{
+    margin: 15px;
+    text-align: center;
+    color:orangered;
+    font-size: 23px;
+    font-family:'Bebas Neue', monospace;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;         
+}
+
+.boas-vindas{
+    text-align:center;
+    justify-content: center;
+    padding-top: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;   
+}
+
+.linkedin{
+    width: 60px;
+    height: 60px;
+}
